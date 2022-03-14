@@ -1,0 +1,22 @@
+pytz==2021.3  # https://github.com/stub42/pytz
+python-slugify==5.0.2  # https://github.com/un33k/python-slugify
+Pillow==9.0.1  # https://github.com/python-pillow/Pillow
+argon2-cffi==21.3.0  # https://github.com/hynek/argon2_cffi
+whitenoise==6.0.0  # https://github.com/evansd/whitenoise
+redis==4.1.4  # https://github.com/redis/redis-py
+celery==5.2.3  # pyup: < 6.0  # https://github.com/celery/celery
+flower==1.0.0  # https://github.com/mher/flower
+PyJWT==2.1.0  # https://github.com/jpadilla/pyjwt
+PyYAML==5.3.1  # https://github.com/yaml/pyyaml
+
+# Django
+# ------------------------------------------------------------------------------
+django==3.2.12  # https://www.djangoproject.com/
+django-environ==0.8.1  # https://github.com/joke2k/django-environ
+django-autoslug==1.9.8  # https://github.com/justinmayer/django-autoslug/
+django-redis==5.2.0  # https://github.com/jazzband/django-redis
+django-celery-email==3.0.0  # https://github.com/pmclanahan/django-celery-email
+djangorestframework==3.13.1  # https://github.com/encode/django-rest-framework
+django-filter==21.1  # https://github.com/carltongibson/django-filter
+djoser==2.1.0  # https://github.com/sunscrapers/djoser
+djangorestframework-simplejwt==4.8.0  # https://github.com/jazzband/djangorestframework-simplejwt

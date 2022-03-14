@@ -1,0 +1,14 @@
+venv
+.env
+.pytest_cache
+__pycache__
+htmlcov
+.coverage
+staticfiles/
+mediafiles/
+.vscode
+.idea
+burger_shot/media
+burger_shot.db
+frontend/node_modules
+.mypy_cache

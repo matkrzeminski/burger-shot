@@ -1,0 +1,1724 @@
+2022-03-11 00:23:08,334 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-11 00:23:53,921 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-11 00:26:11,562 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-11 00:29:36,987 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-11 00:32:38,975 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-11 19:55:30,055 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 17:28:26,956 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:21:36,596 django.utils.autoreload INFO     /app/config/settings/base.py changed, reloading.
+2022-03-14 18:21:37,849 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:22:48,594 django.utils.autoreload INFO     /app/config/settings/base.py changed, reloading.
+2022-03-14 18:22:50,290 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:25:21,182 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 18:25:23,297 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:25:42,303 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 18:25:43,907 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:27:08,177 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:27:09,981 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:27:56,705 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:27:58,290 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:28:45,051 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:28:46,797 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:34:05,912 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:34:07,908 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:37:16,598 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:37:18,093 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:40:58,161 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:40:59,691 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:42:25,950 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:42:27,329 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:43:54,641 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:43:56,309 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:44:40,970 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:44:42,717 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:46:52,633 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:46:54,062 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:47:32,712 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:47:34,358 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:48:48,385 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:48:50,474 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:51:28,508 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:51:30,504 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:53:23,907 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:53:25,939 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:54:35,986 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:54:37,668 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:55:52,899 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:55:54,442 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:56:32,148 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:56:33,688 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:56:46,369 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:56:47,777 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:57:38,752 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:57:40,450 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:58:59,607 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:59:01,329 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 18:59:43,054 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 18:59:44,481 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:00:03,558 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 19:00:05,266 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:03:17,545 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 19:03:18,953 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:03:49,547 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 19:03:50,951 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:06:10,333 django.utils.autoreload INFO     /app/backend/users/models.py changed, reloading.
+2022-03-14 19:06:12,709 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:06:15,094 django.utils.autoreload INFO     /app/backend/users/models.py changed, reloading.
+2022-03-14 19:06:16,668 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:10:43,723 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 19:10:45,187 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:14:12,933 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 19:14:14,609 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:19:31,559 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 19:19:33,834 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:23:45,811 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 19:23:47,990 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:25:45,095 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 19:25:46,463 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:26:33,108 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 19:26:34,571 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:28:02,831 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 19:28:04,220 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:29:25,195 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 19:29:26,569 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:29:37,111 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 19:29:38,695 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:31:01,952 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 19:31:03,541 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:33:25,795 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-14 19:33:27,301 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:33:41,129 django.utils.autoreload INFO     /app/backend/users/models.py changed, reloading.
+2022-03-14 19:33:42,789 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:37:50,679 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:39:03,920 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 19:39:05,433 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:39:13,036 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 19:39:14,803 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:39:28,193 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 19:40:27,072 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 19:40:27,756 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 19:40:29,121 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 19:40:29,786 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'modified' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'modified' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 19:40:33,151 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'modified' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'modified' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 19:41:00,706 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'modified' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'modified' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:16:39,512 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:17:59,264 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:18:37,050 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:18:38,833 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:19:42,381 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:19:44,146 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:19:45,802 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:19:48,305 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:19:48,989 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:19:49,734 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:19:50,400 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:19:50,991 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:20:14,692 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:20:16,283 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:20:16,793 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:20:17,726 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:20:18,221 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:20:18,767 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:20:19,301 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:20:24,092 django.request ERROR    Internal Server Error: /admin/users/user/1/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 261, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.9/site-packages/django/forms/models.py", line 158, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+2022-03-14 20:21:40,879 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:21:42,994 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:22:00,933 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:22:02,473 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:22:48,629 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:22:50,695 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:26:30,476 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:26:31,996 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:37:03,538 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:37:04,991 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:37:36,607 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:37:38,026 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:38:41,742 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:38:43,349 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:40:48,398 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:40:49,908 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:41:13,041 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:41:14,509 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:43:25,687 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:43:27,397 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:43:32,900 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:43:34,469 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:44:01,695 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:44:03,302 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:46:22,463 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:46:23,947 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:48:29,575 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:48:31,171 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:51:07,257 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:51:08,668 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:51:15,790 django.request ERROR    Internal Server Error: /admin/core/city/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/options.py", line 608, in get_field
+    return self.fields_map[field_name]
+KeyError: 'number_of_customers'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 265, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 296, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/options.py", line 610, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: City has no field named 'number_of_customers'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/templatetags/base.py", line 33, in render
+    return super().render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/templatetags/admin_list.py", line 308, in result_list
+    'results': list(results(cl)),
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/templatetags/admin_list.py", line 284, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/templatetags/admin_list.py", line 275, in __init__
+    super().__init__(*items)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/templatetags/admin_list.py", line 200, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 274, in lookup_field
+    value = attr(obj)
+  File "/app/backend/core/admin.py", line 24, in number_of_customers
+    return UserAddress.objects.filter(city__name=obj.name & user__).select_related().count()
+NameError: name 'user__' is not defined
+2022-03-14 20:51:22,540 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 20:51:24,145 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:51:41,553 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+TypeError: cannot unpack non-iterable NoneType object
+2022-03-14 20:51:48,216 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+TypeError: cannot unpack non-iterable NoneType object
+2022-03-14 20:52:13,092 django.utils.autoreload INFO     /app/backend/users/forms.py changed, reloading.
+2022-03-14 20:52:14,819 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:52:15,450 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+TypeError: cannot unpack non-iterable NoneType object
+2022-03-14 20:52:16,086 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+TypeError: cannot unpack non-iterable NoneType object
+2022-03-14 20:52:16,660 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+TypeError: cannot unpack non-iterable NoneType object
+2022-03-14 20:52:17,260 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+TypeError: cannot unpack non-iterable NoneType object
+2022-03-14 20:52:23,902 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+TypeError: cannot unpack non-iterable NoneType object
+2022-03-14 20:52:39,054 django.utils.autoreload INFO     /app/backend/users/forms.py changed, reloading.
+2022-03-14 20:52:40,522 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:53:51,249 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:53:53,026 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:53:55,041 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+TypeError: cannot unpack non-iterable NoneType object
+2022-03-14 20:55:04,700 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:55:06,245 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:55:13,792 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+TypeError: cannot unpack non-iterable NoneType object
+2022-03-14 20:55:39,766 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:55:41,389 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:55:43,201 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+ValueError: too many values to unpack (expected 2)
+2022-03-14 20:56:01,044 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+ValueError: too many values to unpack (expected 2)
+2022-03-14 20:56:01,401 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:56:03,013 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:56:03,712 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 99, in flatten_fieldsets
+    flatten(opts['fields'])
+TypeError: string indices must be integers
+2022-03-14 20:56:33,862 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 99, in flatten_fieldsets
+    flatten(opts['fields'])
+TypeError: string indices must be integers
+2022-03-14 20:56:34,274 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:56:35,774 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:56:36,488 django.request ERROR    Internal Server Error: /admin/users/user/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+TypeError: cannot unpack non-iterable NoneType object
+2022-03-14 20:56:52,630 django.utils.autoreload INFO     /app/backend/users/forms.py changed, reloading.
+2022-03-14 20:56:54,104 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 20:57:34,840 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-14 20:57:37,045 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 21:06:35,447 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 21:06:36,921 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 21:10:02,566 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 21:10:04,752 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 21:10:05,253 django.request ERROR    Internal Server Error: /admin/core/city/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/options.py", line 608, in get_field
+    return self.fields_map[field_name]
+KeyError: 'number_of_customers'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 265, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 296, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/options.py", line 610, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: City has no field named 'number_of_customers'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'builtin_function_or_method'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/templatetags/base.py", line 33, in render
+    return super().render(context)
+  File "/usr/local/lib/python3.9/site-packages/django/template/library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/templatetags/admin_list.py", line 308, in result_list
+    'results': list(results(cl)),
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/templatetags/admin_list.py", line 284, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/templatetags/admin_list.py", line 275, in __init__
+    super().__init__(*items)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/templatetags/admin_list.py", line 200, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/utils.py", line 274, in lookup_field
+    value = attr(obj)
+  File "/app/backend/core/admin.py", line 24, in number_of_customers
+    return UserAddress.objects.filter(city__name=obj.name & (User.objects.filter(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/lookups.py", line 77, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <built-in function id>.
+2022-03-14 21:13:02,732 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 21:13:04,212 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-14 21:13:24,174 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-14 21:13:25,699 django.utils.autoreload INFO     Watching for file changes with StatReloader
