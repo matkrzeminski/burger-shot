@@ -5,18 +5,23 @@ from .factories import UserFactory
 pytestmark = pytest.mark.django_db
 
 
-def test__str__(user):
+def test__str__(user, superuser):
     assert user.__str__() == user.email
     assert str(user) == user.email
+    assert superuser.__str__() == superuser.email
+    assert str(superuser) == superuser.email
 
 
-def test_get_full_name(user):
+def test_get_full_name(user, superuser):
     assert user.get_full_name == f"{user.first_name} {user.last_name}"
+    assert superuser.get_full_name == f"{superuser.first_name} {superuser.last_name}"
 
 
-def test_normalized_email(user):
-    email = user.email
-    assert user.email == email.lower()
+def test_normalized_email(user, superuser):
+    user_email = user.email
+    superuser_email = superuser.email
+    assert user.email == user_email.lower()
+    assert superuser.email == superuser_email.lower()
 
 
 def test_user(user):
