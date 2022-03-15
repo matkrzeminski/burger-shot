@@ -30,7 +30,7 @@ class CustomUserAdmin(UserAdmin):
         "is_active",
     )
     search_fields = ("email", "first_name", "last_name")
-    ordering = ("modified",)
+    ordering = ("-modified",)
     fieldsets = (
         ("Credentials", {"fields": ("email", "password")}),
         ("Personal", {"fields": ("first_name", "last_name")}),

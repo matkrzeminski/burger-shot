@@ -1722,3 +1722,125 @@ TypeError: Field 'id' expected a number but got <built-in function id>.
 2022-03-14 21:13:04,212 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2022-03-14 21:13:24,174 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
 2022-03-14 21:13:25,699 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 13:56:55,889 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 14:05:50,826 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-15 14:05:52,661 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 14:09:19,106 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-15 14:09:20,827 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 19:18:34,280 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-15 19:18:35,760 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 19:18:38,937 django.request ERROR    Internal Server Error: /admin/core/country/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/views/main.py", line 99, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/views/main.py", line 492, in get_queryset
+    qs = qs.order_by(*ordering)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1149, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1993, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword '_number_of_customers' into field. Choices are: address, city, created, id, modified, name, uuid
+2022-03-15 19:18:50,772 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-15 19:18:52,834 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 19:18:54,677 django.request ERROR    Internal Server Error: /admin/core/country/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/views/main.py", line 99, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/views/main.py", line 492, in get_queryset
+    qs = qs.order_by(*ordering)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1149, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1993, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'number_of_customers' into field. Choices are: address, city, created, id, modified, name, uuid
+2022-03-15 19:19:13,881 django.request ERROR    Internal Server Error: /admin/core/country/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/views/main.py", line 99, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/usr/local/lib/python3.9/site-packages/django/contrib/admin/views/main.py", line 492, in get_queryset
+    qs = qs.order_by(*ordering)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1149, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1993, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'number_of_customers' into field. Choices are: address, city, created, id, modified, name, uuid
+2022-03-15 19:22:40,640 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-15 19:22:42,284 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 19:23:35,143 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-15 19:23:37,035 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 19:25:04,667 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-15 19:25:06,279 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 19:30:47,930 django.request WARNING  Not Found: /ResolverMatch(func=django.contrib.admin.options.changelist_view, args=(), kwargs={}, url_name=core_country_changelist, app_names=['admin'], namespaces=['admin'], route=admincore/country/)
+2022-03-15 19:32:19,717 django.request WARNING  Not Found: /core_country_changelist
