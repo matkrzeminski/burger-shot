@@ -20,3 +20,5 @@ djangorestframework==3.13.1  # https://github.com/encode/django-rest-framework
 django-filter==21.1  # https://github.com/carltongibson/django-filter
 djoser==2.1.0  # https://github.com/sunscrapers/djoser
 djangorestframework-simplejwt==4.8.0  # https://github.com/jazzband/djangorestframework-simplejwt
+django-phonenumber-field==5.2.0  # https://github.com/stefanfoulis/django-phonenumber-field
+phonenumbers==8.12.33  # https://github.com/daviddrysdale/python-phonenumbers

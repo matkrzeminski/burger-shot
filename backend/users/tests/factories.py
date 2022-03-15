@@ -22,7 +22,7 @@ class UserFactory(DjangoModelFactory):
     @classmethod
     def _create(cls, model_class, *args, **kwargs):
         manager = cls._get_manager(model_class)
-        if 'is_superuser' in kwargs:
+        if "is_superuser" in kwargs:
             return manager.create_superuser(*args, **kwargs)
         else:
             return manager.create_user(*args, **kwargs)
@@ -33,4 +33,4 @@ class UserAddressFactory(AddressFactory):
 
     class Meta:
         model = UserAddress
-        django_get_or_create = ['user']
+        django_get_or_create = ["user"]

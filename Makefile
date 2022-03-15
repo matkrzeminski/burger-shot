@@ -51,21 +51,21 @@ flake8:
 	docker compose exec backend flake8 .
 
 black-check:
-	docker compose exec backend black --check --exclude=migrations .
+	docker compose exec backend black --check --exclude=migrations . --exclude=venv .
 
 black-diff:
-	docker compose exec backend black --diff --exclude=migrations .
+	docker compose exec backend black --diff --exclude=migrations . --exclude=venv .
 
 black:
-	docker compose exec backend black --exclude=migrations .
+	docker compose exec backend black --exclude=migrations . --exclude=venv .
 
 isort-check:
-	docker compose exec backend isort . --check-only --skip env --skip migrations
+	docker compose exec backend isort . --check-only --skip env --skip migrations --skip venv
 
 isort-diff:
-	docker compose exec backend isort . --diff --skip env --skip migrations
+	docker compose exec backend isort . --diff --skip env --skip migrations --skip venv
 
 isort:
-	docker compose exec backend isort . --skip env --skip migrations
+	docker compose exec backend isort . --skip env --skip migrations --skip venv
 
 

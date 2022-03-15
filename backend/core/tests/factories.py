@@ -25,10 +25,10 @@ class CityFactory(DjangoModelFactory):
 class AddressFactory(DjangoModelFactory):
     country = factory.SubFactory(CountryFactory)
     city = factory.SubFactory(CityFactory)
-    postcode = Faker('postcode')
-    street = Faker('street_name')
-    apartment = factory.Iterator([123, '12a', '32', '', 9, '2213', 2213])
+    postcode = Faker("postcode")
+    street = Faker("street_name")
+    apartment = factory.Iterator([123, "12a", "32", "", 9, "2213", 2213])
 
     class Meta:
         model = Address
-        django_get_or_create = ['country', 'city']
+        django_get_or_create = ["country", "city"]

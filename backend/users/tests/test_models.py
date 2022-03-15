@@ -73,5 +73,5 @@ def test_admin_no_email():
 
 
 def test_user_address__str__(user_address):
-    assert user_address.__str__() == f'{user_address.street} {user_address.apartment}'
-    assert str(user_address) == f'{user_address.street} {user_address.apartment}'
+    assert user_address.__str__() == f"{user_address.street} {user_address.apartment}"
+    assert str(user_address) == f"{user_address.street} {user_address.apartment}"

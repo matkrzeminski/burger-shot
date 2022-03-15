@@ -73,11 +73,12 @@ THIRD_PARTY_APPS = [
     "djoser",
     "rest_framework_simplejwt",
     "djcelery_email",
+    "phonenumber_field",
 ]
 
 LOCAL_APPS = [
-    'backend.core',
-    'backend.users',
+    "backend.core",
+    "backend.users",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

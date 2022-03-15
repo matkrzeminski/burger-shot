@@ -14,6 +14,7 @@ class CustomUserAdmin(UserAdmin):
         "id",
         "uuid",
         "email",
+        "phone_number",
         "first_name",
         "last_name",
         "created",
@@ -29,11 +30,11 @@ class CustomUserAdmin(UserAdmin):
         "is_staff",
         "is_active",
     )
-    search_fields = ("email", "first_name", "last_name")
+    search_fields = ("email", "phone_number", "first_name", "last_name")
     ordering = ("-modified",)
     fieldsets = (
         ("Credentials", {"fields": ("email", "password")}),
-        ("Personal", {"fields": ("first_name", "last_name")}),
+        ("Personal", {"fields": ("first_name", "last_name", "phone_number")}),
         (
             "Permissions and Groups",
             {

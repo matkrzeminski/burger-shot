@@ -2,6 +2,8 @@ from django.contrib.auth.base_user import AbstractBaseUser
 from django.contrib.auth.models import PermissionsMixin
 from django.db import models
 
+from phonenumber_field.modelfields import PhoneNumberField
+
 from .managers import CustomUserManager
 from ..core.models import TimeStampedUUID, Address
 
@@ -10,6 +12,7 @@ class User(AbstractBaseUser, TimeStampedUUID, PermissionsMixin):
     email = models.EmailField("Email Address", unique=True)
     first_name = models.CharField("First Name", max_length=50)
     last_name = models.CharField("Last Name", max_length=50)
+    phone_number = PhoneNumberField("Phone Number", max_length=30, blank=True)
     is_staff = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
 

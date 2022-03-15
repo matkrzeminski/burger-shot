@@ -1844,3 +1844,16 @@ django.core.exceptions.FieldError: Cannot resolve keyword 'number_of_customers' 
 2022-03-15 19:25:06,279 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2022-03-15 19:30:47,930 django.request WARNING  Not Found: /ResolverMatch(func=django.contrib.admin.options.changelist_view, args=(), kwargs={}, url_name=core_country_changelist, app_names=['admin'], namespaces=['admin'], route=admincore/country/)
 2022-03-15 19:32:19,717 django.request WARNING  Not Found: /core_country_changelist
+2022-03-15 20:45:16,645 django.utils.autoreload INFO     /app/backend/core/apps.py changed, reloading.
+2022-03-15 20:45:20,342 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 20:53:51,301 django.utils.autoreload INFO     /app/backend/users/models.py changed, reloading.
+2022-03-15 20:53:55,984 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 20:55:02,995 django.utils.autoreload INFO     /app/backend/users/models.py changed, reloading.
+2022-03-15 20:55:04,975 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 21:38:24,763 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 21:39:38,534 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-15 21:39:40,450 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 21:40:32,128 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-15 21:40:33,923 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-15 21:41:06,448 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
+2022-03-15 21:41:07,986 django.utils.autoreload INFO     Watching for file changes with StatReloader
