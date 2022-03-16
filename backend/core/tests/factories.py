@@ -2,7 +2,7 @@ import factory
 from factory import Faker
 from factory.django import DjangoModelFactory
 
-from ..models import Country, City, Address
+from ..models import Country, City, Address, State
 
 
 class CountryFactory(DjangoModelFactory):
@@ -13,8 +13,18 @@ class CountryFactory(DjangoModelFactory):
         django_get_or_create = ["name"]
 
 
+class StateFactory(DjangoModelFactory):
+    country = factory.SubFactory(CountryFactory)
+    name = Faker("state")
+
+    class Meta:
+        model = State
+        django_get_or_create = ["name"]
+
+
 class CityFactory(DjangoModelFactory):
     country = factory.SubFactory(CountryFactory)
+    state = factory.SubFactory(StateFactory)
     name = Faker("city")
 
     class Meta:

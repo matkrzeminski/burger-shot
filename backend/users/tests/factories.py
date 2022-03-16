@@ -11,6 +11,7 @@ class UserFactory(DjangoModelFactory):
     email = Faker("email")
     first_name = Faker("first_name")
     last_name = Faker("last_name")
+    phone_number = Faker("phone_number")
     password = Faker("password", length=20)
     is_active = True
     is_staff = False

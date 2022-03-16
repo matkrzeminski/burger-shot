@@ -1857,3 +1857,10 @@ django.core.exceptions.FieldError: Cannot resolve keyword 'number_of_customers' 
 2022-03-15 21:40:33,923 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2022-03-15 21:41:06,448 django.utils.autoreload INFO     /app/backend/users/admin.py changed, reloading.
 2022-03-15 21:41:07,986 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-16 16:58:42,915 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-16 17:53:30,226 django.utils.autoreload INFO     /app/backend/core/models.py changed, reloading.
+2022-03-16 17:53:32,269 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-16 18:11:34,414 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-16 18:13:23,345 django.utils.autoreload INFO     /app/backend/core/admin.py changed, reloading.
+2022-03-16 18:13:25,955 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-16 18:23:05,623 django.utils.autoreload INFO     Watching for file changes with StatReloader

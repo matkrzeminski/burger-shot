@@ -1,6 +1,6 @@
 import pytest
 
-from .core.tests.factories import CountryFactory, CityFactory
+from .core.tests.factories import CountryFactory, CityFactory, StateFactory
 from .users.tests.factories import UserFactory, UserAddressFactory
 
 
@@ -17,6 +17,11 @@ def superuser():
 @pytest.fixture()
 def country():
     return CountryFactory()
+
+
+@pytest.fixture()
+def state():
+    return StateFactory()
 
 
 @pytest.fixture()

@@ -24,9 +24,32 @@ class Country(TimeStampedUUID):
         return self.name
 
 
+class State(TimeStampedUUID):
+    country = models.ForeignKey(
+        Country,
+        related_name="states",
+        related_query_name="state",
+        on_delete=models.CASCADE,
+    )
+    name = models.CharField("State", max_length=60)
+
+    class Meta:
+        verbose_name = "State"
+        verbose_name_plural = "States"
+
+    def __str__(self):
+        return self.name
+
+
 class City(TimeStampedUUID):
     country = models.ForeignKey(
         Country,
+        related_name="cities",
+        related_query_name="city",
+        on_delete=models.CASCADE,
+    )
+    state = models.ForeignKey(
+        State,
         related_name="cities",
         related_query_name="city",
         on_delete=models.CASCADE,

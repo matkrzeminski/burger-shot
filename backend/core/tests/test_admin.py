@@ -36,3 +36,18 @@ def test_city_admin_number_of_customers(city, admin_client):
 
     assertContains(response, city.name)
     assert number_of_customers == len(users_addresses)
+
+
+def test_state_admin_number_of_customers(city, admin_client):
+    url = reverse("admin:core_state_changelist")
+    response = admin_client.get(url)
+
+    users_addresses = [UserAddressFactory(city=city) for _ in range(10)]
+    number_of_customers = (
+        UserAddress.objects.exclude(user__is_staff=True)
+        .filter(city__state__name=city.state.name)
+        .count()
+    )
+
+    assertContains(response, city.state.name)
+    assert number_of_customers == len(users_addresses)

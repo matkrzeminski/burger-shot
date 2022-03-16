@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Country, City
+from .models import Country, City, State
 from backend.users.models import UserAddress
 
 
@@ -28,5 +28,19 @@ class CityAdmin(admin.ModelAdmin):
         return (
             UserAddress.objects.exclude(user__is_staff=True)
             .filter(city__name=obj.name)
+            .count()
+        )
+
+
+@admin.register(State)
+class StateAdmin(admin.ModelAdmin):
+    model = City
+    list_display = ("name", "number_of_customers")
+
+    @admin.display(empty_value="0")
+    def number_of_customers(self, obj):
+        return (
+            UserAddress.objects.exclude(user__is_staff=True)
+            .filter(city__state__name=obj.name)
             .count()
         )
