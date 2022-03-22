@@ -3,8 +3,8 @@ from django.contrib.auth import get_user_model
 from factory import Faker
 from factory.django import DjangoModelFactory
 
-from backend.core.tests.factories import AddressFactory
-from backend.users.models import UserAddress
+from backend.locations.tests.factories import BaseAddressFactory
+from backend.users.models import Address
 
 
 class UserFactory(DjangoModelFactory):
@@ -29,9 +29,9 @@ class UserFactory(DjangoModelFactory):
             return manager.create_user(*args, **kwargs)
 
 
-class UserAddressFactory(AddressFactory):
+class UserAddressFactory(BaseAddressFactory):
     user = factory.SubFactory(UserFactory)
 
     class Meta:
-        model = UserAddress
+        model = Address
         django_get_or_create = ["user"]

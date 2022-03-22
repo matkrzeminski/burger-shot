@@ -78,6 +78,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "backend.core",
+    "backend.locations",
     "backend.users",
 ]
 

@@ -2,7 +2,7 @@ import factory
 from factory import Faker
 from factory.django import DjangoModelFactory
 
-from ..models import Country, City, Address, State
+from ..models import Country, City, BaseAddress, State
 
 
 class CountryFactory(DjangoModelFactory):
@@ -32,7 +32,7 @@ class CityFactory(DjangoModelFactory):
         django_get_or_create = ["name"]
 
 
-class AddressFactory(DjangoModelFactory):
+class BaseAddressFactory(DjangoModelFactory):
     country = factory.SubFactory(CountryFactory)
     city = factory.SubFactory(CityFactory)
     postcode = Faker("postcode")
@@ -40,5 +40,5 @@ class AddressFactory(DjangoModelFactory):
     apartment = factory.Iterator([123, "12a", "32", "", 9, "2213", 2213])
 
     class Meta:
-        model = Address
+        model = BaseAddress
         django_get_or_create = ["country", "city"]

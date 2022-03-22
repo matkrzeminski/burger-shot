@@ -5,7 +5,8 @@ from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
 
 from .managers import CustomUserManager
-from ..core.models import TimeStampedUUID, Address
+from ..core.models import TimeStampedUUID
+from ..locations.models import BaseAddress
 
 
 class User(AbstractBaseUser, TimeStampedUUID, PermissionsMixin):
@@ -29,7 +30,7 @@ class User(AbstractBaseUser, TimeStampedUUID, PermissionsMixin):
         return f"{self.first_name} {self.last_name}"
 
 
-class UserAddress(Address):
+class Address(BaseAddress):
     user = models.ForeignKey(
         User,
         related_name="addresses",

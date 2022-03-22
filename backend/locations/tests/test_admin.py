@@ -2,14 +2,14 @@ import pytest
 from django.urls import reverse
 from pytest_django.asserts import assertContains
 
-from backend.users.models import UserAddress
+from backend.users.models import Address as UserAddress
 from backend.users.tests.factories import UserAddressFactory
 
 pytestmark = pytest.mark.django_db
 
 
 def test_country_admin_number_of_customers(country, admin_client):
-    url = reverse("admin:core_country_changelist")
+    url = reverse("admin:locations_country_changelist")
     response = admin_client.get(url)
 
     users_addresses = [UserAddressFactory(country=country) for _ in range(10)]
@@ -24,7 +24,7 @@ def test_country_admin_number_of_customers(country, admin_client):
 
 
 def test_city_admin_number_of_customers(city, admin_client):
-    url = reverse("admin:core_city_changelist")
+    url = reverse("admin:locations_city_changelist")
     response = admin_client.get(url)
 
     users_addresses = [UserAddressFactory(city=city) for _ in range(10)]
@@ -39,7 +39,7 @@ def test_city_admin_number_of_customers(city, admin_client):
 
 
 def test_state_admin_number_of_customers(city, admin_client):
-    url = reverse("admin:core_state_changelist")
+    url = reverse("admin:locations_state_changelist")
     response = admin_client.get(url)
 
     users_addresses = [UserAddressFactory(city=city) for _ in range(10)]

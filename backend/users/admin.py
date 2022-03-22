@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 
 from .forms import CustomUserCreationForm, CustomUserChangeForm
-from .models import User, UserAddress
+from .models import User, Address
 
 
 @admin.register(User)
@@ -69,9 +69,9 @@ class CustomUserAdmin(UserAdmin):
     )
 
 
-@admin.register(UserAddress)
+@admin.register(Address)
 class UserAddressAdmin(admin.ModelAdmin):
-    model = UserAddress
+    model = Address
     list_display = (
         "id",
         "uuid",

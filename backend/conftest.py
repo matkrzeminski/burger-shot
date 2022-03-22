@@ -1,6 +1,6 @@
 import pytest
 
-from .core.tests.factories import CountryFactory, CityFactory, StateFactory
+from .locations.tests.factories import CountryFactory, CityFactory, StateFactory
 from .users.tests.factories import UserFactory, UserAddressFactory
 
 
