@@ -7,25 +7,44 @@ from backend.users.models import Address
 User = get_user_model()
 
 
-class UserSerializer(serializers.HyperlinkedModelSerializer):
-    # addresses = serializers.HyperlinkedRelatedField(
-    #     many=True, read_only=True, view_name="user-addresses"
-    # )
+class UserAddressesSerializer(serializers.ModelSerializer):
+    city = serializers.CharField(source="city.name")
+    country = serializers.CharField(source="country.name")
+    id = serializers.UUIDField(source="uuid")
+
+    class Meta:
+        model = Address
+        fields = [
+            "id",
+            "name",
+            "postcode",
+            "city",
+            "street",
+            "apartment",
+            "country",
+            "created",
+            "modified",
+        ]
+
+
+class UserSerializer(serializers.ModelSerializer):
+    addresses = UserAddressesSerializer(many=True, read_only=True)
     first_name = serializers.SerializerMethodField()
     last_name = serializers.SerializerMethodField()
     full_name = serializers.SerializerMethodField()
+    id = serializers.UUIDField(source="uuid")
 
     class Meta:
         model = User
         fields = [
-            "uuid",
+            "id",
             "email",
             "first_name",
             "last_name",
             "full_name",
             "phone_number",
             "is_active",
-            # "addresses",
+            "addresses",
         ]
 
     def get_first_name(self, obj):
@@ -36,12 +55,6 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 
     def get_full_name(self, obj):
         return f"{self.get_first_name(obj)} {self.get_last_name(obj)}"
-
-
-class UserAddressesSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Address
-        fields = "__all__"
 
 
 class CreateUserSerializer(UserCreateSerializer):

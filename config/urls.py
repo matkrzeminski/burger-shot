@@ -7,7 +7,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/v1/auth/", include("djoser.urls")),
     path("api/v1/auth/", include("djoser.urls.jwt")),
-    path("api/v1/users/", include("backend.users.urls")),
+    path("api/v1/", include("backend.api.urls")),
 ]
 
 admin.site.site_header = "Burger Shot Admin"
