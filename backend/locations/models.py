@@ -15,7 +15,7 @@ class Country(TimeStampedUUID):
 
 
 class State(TimeStampedUUID):
-    name = models.CharField("State", max_length=60, unique=True)
+    name = models.CharField("State", max_length=60)
     country = models.ForeignKey(
         Country,
         related_name="states",
@@ -26,6 +26,7 @@ class State(TimeStampedUUID):
     class Meta:
         verbose_name = "State"
         verbose_name_plural = "States"
+        unique_together = ("name", "country")
 
     def __str__(self):
         return self.name

@@ -10,6 +10,7 @@ User = get_user_model()
 class UserAddressesSerializer(serializers.ModelSerializer):
     city = serializers.CharField(source="city.name")
     country = serializers.CharField(source="country.name")
+    state = serializers.CharField(source="city.state.name")
     id = serializers.UUIDField(source="uuid")
 
     class Meta:
@@ -19,6 +20,7 @@ class UserAddressesSerializer(serializers.ModelSerializer):
             "name",
             "postcode",
             "city",
+            "state",
             "street",
             "apartment",
             "country",

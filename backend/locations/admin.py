@@ -7,7 +7,7 @@ from backend.users.models import Address
 @admin.register(Country)
 class CountryAdmin(admin.ModelAdmin):
     model = Country
-    list_display = ("name", "number_of_customers")
+    list_display = ("uuid", "name", "number_of_customers")
 
     @admin.display(empty_value="0")
     def number_of_customers(self, obj):
@@ -21,7 +21,7 @@ class CountryAdmin(admin.ModelAdmin):
 @admin.register(City)
 class CityAdmin(admin.ModelAdmin):
     model = City
-    list_display = ("name", "country", "number_of_customers")
+    list_display = ("uuid", "name", "country", "state", "number_of_customers")
 
     @admin.display(empty_value="0")
     def number_of_customers(self, obj):
@@ -35,7 +35,7 @@ class CityAdmin(admin.ModelAdmin):
 @admin.register(State)
 class StateAdmin(admin.ModelAdmin):
     model = City
-    list_display = ("name", "country", "number_of_customers")
+    list_display = ("uuid", "name", "country", "number_of_customers")
 
     @admin.display(empty_value="0")
     def number_of_customers(self, obj):

@@ -22,3 +22,4 @@ djoser==2.1.0  # https://github.com/sunscrapers/djoser
 djangorestframework-simplejwt==4.8.0  # https://github.com/jazzband/djangorestframework-simplejwt
 django-phonenumber-field==5.2.0  # https://github.com/stefanfoulis/django-phonenumber-field
 phonenumbers==8.12.33  # https://github.com/daviddrysdale/python-phonenumbers
+drf_yasg==1.20.0  # https://github.com/axnsan12/drf-yasg

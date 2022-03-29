@@ -74,6 +74,7 @@ THIRD_PARTY_APPS = [
     "rest_framework_simplejwt",
     "djcelery_email",
     "phonenumber_field",
+    "drf_yasg",
 ]
 
 LOCAL_APPS = [
