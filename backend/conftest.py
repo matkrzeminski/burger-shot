@@ -1,4 +1,5 @@
 import pytest
+from rest_framework_simplejwt.tokens import RefreshToken
 
 from .locations.tests.factories import CountryFactory, CityFactory, StateFactory
 from .users.tests.factories import UserFactory, UserAddressFactory
@@ -10,8 +11,20 @@ def user():
 
 
 @pytest.fixture()
+def user_token(user):
+    token = str(RefreshToken.for_user(user).access_token)
+    return token
+
+
+@pytest.fixture()
 def superuser():
     return UserFactory(is_superuser=True, is_staff=True)
+
+
+@pytest.fixture()
+def superuser_token(superuser):
+    token = str(RefreshToken.for_user(superuser).access_token)
+    return token
 
 
 @pytest.fixture()

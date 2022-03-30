@@ -72,11 +72,23 @@ class StateViewSet(viewsets.ModelViewSet):
     http_method_names = ["get", "post", "put", "delete"]
 
     def check_data(self, data):
+        if not data:
+            return Response({"message": "No data provided"}, status=status.HTTP_400_BAD_REQUEST)
+        if not data.get("country"):
+            return Response(
+                {"message": "Country not provided"}, status=status.HTTP_400_BAD_REQUEST
+            )
+        if not data.get("name"):
+            return Response(
+                {"message": "Name not provided"}, status=status.HTTP_400_BAD_REQUEST
+            )
+
         country = Country.objects.filter(name=data.get("country"))
         if not country:
             return Response(
                 {"message": "Country not found"}, status=status.HTTP_404_NOT_FOUND
             )
+
         state = State.objects.filter(name=data.get("name"), country=country[0])
         if state:
             return Response(
@@ -144,15 +156,33 @@ class CityViewSet(viewsets.ModelViewSet):
     http_method_names = ["get", "post", "put", "delete"]
 
     def check_data(self, data):
+        if not data:
+            return Response({"message": "No data provided"}, status=status.HTTP_400_BAD_REQUEST)
+        if not data.get("country"):
+            return Response(
+                {"message": "Country not provided"}, status=status.HTTP_400_BAD_REQUEST
+            )
+        if not data.get("state"):
+            return Response(
+                {"message": "State not provided"}, status=status.HTTP_400_BAD_REQUEST
+            )
+        if not data.get("name"):
+            return Response(
+                {"message": "Name not provided"}, status=status.HTTP_400_BAD_REQUEST
+            )
         state = State.objects.filter(name=data.get("state"))
         if not state:
             return Response(
                 {"message": "State not found"}, status=status.HTTP_404_NOT_FOUND
             )
-        if state[0].country.name != data.get("country"):
+        country = Country.objects.filter(name=data.get("country"))
+        if not country:
             return Response(
-                {"message": "Country and State doesn't match"},
-                status=status.HTTP_400_BAD_REQUEST,
+                {"message": "Country not found"}, status=status.HTTP_404_NOT_FOUND
+            )
+        if state[0].country.name != country[0].name:
+            return Response(
+                {"message": "Country and State doesn't match"}, status=status.HTTP_404_NOT_FOUND
             )
         city = City.objects.filter(name=data.get("name"), state=state[0])
         if city:

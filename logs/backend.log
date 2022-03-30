@@ -22855,3 +22855,795 @@ AssertionError: The field 'states' was declared on serializer LocationsSerialize
 2022-03-30 00:05:56,880 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2022-03-30 00:05:59,567 django.utils.autoreload INFO     /app/backend/api/urls.py changed, reloading.
 2022-03-30 00:06:01,447 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 13:32:57,568 flower.command INFO     Visit me at http://localhost:5555
+2022-03-30 13:32:57,585 flower.command INFO     Broker: redis://redis:6379/0
+2022-03-30 13:32:57,592 flower.command INFO     Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'djcelery_email_send_multiple']
+2022-03-30 13:32:57,609 kombu.mixins INFO     Connected to redis://redis:6379/0
+2022-03-30 13:32:57,591 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 17:34:15,398 flower.events ERROR    Failed to capture events: 'Connection closed by server.', trying again in 1 seconds.
+2022-03-30 17:34:21,455 kombu.mixins INFO     Connected to redis://redis:6379/0
+2022-03-30 17:39:33,631 flower.command INFO     Visit me at http://localhost:5555
+2022-03-30 17:39:33,670 flower.command INFO     Broker: redis://redis:6379/0
+2022-03-30 17:39:33,677 flower.command INFO     Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'djcelery_email_send_multiple']
+2022-03-30 17:39:33,705 kombu.mixins INFO     Connected to redis://redis:6379/0
+2022-03-30 17:39:35,183 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 17:46:32,824 flower.events ERROR    Failed to capture events: 'Connection closed by server.', trying again in 1 seconds.
+2022-03-30 17:46:39,911 kombu.mixins INFO     Connected to redis://redis:6379/0
+2022-03-30 17:51:03,379 flower.command INFO     Visit me at http://localhost:5555
+2022-03-30 17:51:03,398 flower.command INFO     Broker: redis://redis:6379/0
+2022-03-30 17:51:03,403 flower.command INFO     Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'djcelery_email_send_multiple']
+2022-03-30 17:51:03,427 kombu.mixins INFO     Connected to redis://redis:6379/0
+2022-03-30 17:51:04,449 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 17:51:11,790 django.request WARNING  Unauthorized: /api/v1/users/me/
+2022-03-30 17:51:34,229 django.request WARNING  Unauthorized: /api/v1/users/me/
+2022-03-30 17:54:41,911 django.request WARNING  Unauthorized: /api/v1/users/me/
+2022-03-30 17:57:42,747 django.request WARNING  Unauthorized: /api/v1/users/me/
+2022-03-30 17:59:16,329 django.request WARNING  Unauthorized: /api/v1/users/me/
+2022-03-30 18:19:37,937 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:19:42,998 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:20:27,661 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:20:28,688 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:20:29,298 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:20:30,167 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:21:06,105 django.request ERROR    Internal Server Error: /api/v1/states/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (100, 52235bd1-67b2-4969-b915-381a690a7460, 2022-03-30 16:21:05.875243+00, 2022-03-30 16:21:05.875258+00, null, 1).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/backend/locations/views.py", line 91, in create
+    State.objects.create(name=request.data.get("name"), country=country)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (100, 52235bd1-67b2-4969-b915-381a690a7460, 2022-03-30 16:21:05.875243+00, 2022-03-30 16:21:05.875258+00, null, 1).
+
+2022-03-30 18:22:36,597 django.request ERROR    Internal Server Error: /api/v1/states/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (101, cc7a6391-8d32-47b1-953c-c89082815e10, 2022-03-30 16:22:36.547763+00, 2022-03-30 16:22:36.547782+00, null, 1).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/backend/locations/views.py", line 91, in create
+    State.objects.create(name=request.data.get("name"), country=country)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (101, cc7a6391-8d32-47b1-953c-c89082815e10, 2022-03-30 16:22:36.547763+00, 2022-03-30 16:22:36.547782+00, null, 1).
+
+2022-03-30 18:23:50,378 django.request ERROR    Internal Server Error: /api/v1/states/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (102, e9f07e88-b9a0-405d-89f0-f3a939241d00, 2022-03-30 16:23:50.32153+00, 2022-03-30 16:23:50.321553+00, null, 1).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/backend/locations/views.py", line 91, in create
+    def create(self, request, *args, **kwargs):
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (102, e9f07e88-b9a0-405d-89f0-f3a939241d00, 2022-03-30 16:23:50.32153+00, 2022-03-30 16:23:50.321553+00, null, 1).
+
+2022-03-30 18:23:50,878 django.utils.autoreload INFO     /app/backend/locations/views.py changed, reloading.
+2022-03-30 18:23:52,640 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 18:23:53,280 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:24:06,007 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:24:06,961 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:24:07,560 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:24:10,143 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:25:21,887 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:25:21,996 django.utils.autoreload INFO     /app/backend/locations/views.py changed, reloading.
+2022-03-30 18:25:23,534 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 18:25:23,985 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:26:02,792 django.utils.autoreload INFO     /app/backend/locations/views.py changed, reloading.
+2022-03-30 18:26:04,360 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 18:26:09,028 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:31:03,418 django.utils.autoreload INFO     /app/backend/locations/views.py changed, reloading.
+2022-03-30 18:31:05,091 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 18:31:12,349 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:31:12,395 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:31:12,440 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:31:12,490 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:31:12,545 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:31:35,824 django.request WARNING  Unauthorized: /api/v1/auth/jwt/create
+2022-03-30 18:31:41,863 django.request WARNING  Unauthorized: /api/v1/auth/jwt/create
+2022-03-30 18:32:39,006 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 18:33:36,777 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 18:33:56,933 django.request WARNING  Forbidden: /api/v1/states/8153728d-3c84-4420-87c7-2f6d8caac544/
+2022-03-30 18:35:17,636 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:35:17,681 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:35:17,723 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:35:17,766 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:35:17,818 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:35:17,916 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 18:35:34,857 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 18:36:46,171 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:36:46,222 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:36:46,267 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:36:46,312 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:36:46,363 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:36:46,456 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 18:37:11,829 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:37:29,079 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 18:37:50,254 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:37:50,300 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:37:50,346 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:37:50,406 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:37:50,456 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:37:50,549 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 18:39:20,534 django.request WARNING  Bad Request: /api/v1/states/95f590d8-6dc0-42ff-9898-7a411b303ace/
+2022-03-30 18:41:50,129 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:41:50,185 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:41:50,233 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:41:50,280 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:41:50,386 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:41:50,435 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 18:41:50,504 django.request WARNING  Bad Request: /api/v1/states/87d46120-9cf8-43bc-aa66-6a7d68684cce/
+2022-03-30 18:41:50,799 django.request WARNING  Bad Request: /api/v1/states/d1127c5d-137b-443e-afaa-84a17b910ce7/
+2022-03-30 18:41:50,849 django.request WARNING  Bad Request: /api/v1/states/44e25cf4-702a-4b9f-a548-375ee2d2e7da/
+2022-03-30 18:41:50,924 django.request WARNING  Not Found: /api/v1/states/c4669b5a-fa32-4583-9a68-4b228cdd723f/
+2022-03-30 18:41:51,014 django.request ERROR    Internal Server Error: /api/v1/states/invalid-uuid/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2434, in to_python
+    return uuid.UUID(**{input_form: value})
+  File "/usr/local/lib/python3.9/uuid.py", line 177, in __init__
+    raise ValueError('badly formed hexadecimal UUID string')
+ValueError: badly formed hexadecimal UUID string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/backend/locations/views.py", line 109, in update
+    state = State.objects.filter(uuid=uuid)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/lookups.py", line 77, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2418, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2436, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“invalid-uuid” is not a valid UUID.']
+2022-03-30 18:41:51,856 django.request WARNING  Forbidden: /api/v1/states/962d7488-c95d-4023-8418-223bdd148462/
+2022-03-30 18:41:51,962 django.request ERROR    Internal Server Error: /api/v1/states/invalid-uuid/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2434, in to_python
+    return uuid.UUID(**{input_form: value})
+  File "/usr/local/lib/python3.9/uuid.py", line 177, in __init__
+    raise ValueError('badly formed hexadecimal UUID string')
+ValueError: badly formed hexadecimal UUID string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/backend/locations/views.py", line 123, in destroy
+    state = State.objects.filter(uuid=uuid)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/lookups.py", line 77, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2418, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2436, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“invalid-uuid” is not a valid UUID.']
+2022-03-30 18:41:52,724 django.request WARNING  Forbidden: /api/v1/states/8f657c6d-99a1-4aab-bce8-200550303cce/
+2022-03-30 18:43:53,985 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:43:54,029 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:43:54,073 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:43:54,175 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:43:54,227 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:43:54,281 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 18:43:54,403 django.request WARNING  Bad Request: /api/v1/states/941dc838-0409-492c-91a5-5f405f32e768/
+2022-03-30 18:43:54,457 django.request WARNING  Bad Request: /api/v1/states/4c476db8-195f-4dec-9525-df6c0c8007a2/
+2022-03-30 18:43:54,509 django.request WARNING  Not Found: /api/v1/states/5715ba8b-b573-4c0f-b50a-473997ed3de0/
+2022-03-30 18:43:54,559 django.request WARNING  Not Found: /api/v1/states/57063bc8-d1c5-424d-885a-998997db3147/
+2022-03-30 18:43:54,607 django.request WARNING  Forbidden: /api/v1/states/23b1e0ae-4b41-4f42-aafa-051628f1b2af/
+2022-03-30 18:43:54,714 django.request WARNING  Not Found: /api/v1/states/07600c7a-0f7e-4771-9eb3-2cf02557de44/
+2022-03-30 18:43:54,761 django.request WARNING  Forbidden: /api/v1/states/33bef0d7-e469-4971-9aae-c1fcf78c2249/
+2022-03-30 18:47:26,690 django.utils.autoreload INFO     /app/backend/locations/views.py changed, reloading.
+2022-03-30 18:47:28,274 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 18:51:20,111 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:51:20,190 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:51:20,255 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:51:20,320 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 18:51:20,449 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 18:51:20,506 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 18:51:20,628 django.request WARNING  Bad Request: /api/v1/states/978102c5-f089-4e37-9859-77a46520309e/
+2022-03-30 18:51:20,675 django.request WARNING  Bad Request: /api/v1/states/bfc2def5-3e22-455c-b26e-bbb7a81770b7/
+2022-03-30 18:51:20,725 django.request WARNING  Not Found: /api/v1/states/6de778fd-d01b-4817-92a1-ba400719f5bb/
+2022-03-30 18:51:20,775 django.request WARNING  Not Found: /api/v1/states/023354ca-c957-4ed5-97ca-02647f70aa8b/
+2022-03-30 18:51:20,825 django.request WARNING  Forbidden: /api/v1/states/3058b3f5-bf5e-4fa7-8a64-49ec4e62c049/
+2022-03-30 18:51:20,933 django.request WARNING  Not Found: /api/v1/states/309b26e5-5024-4467-b9cf-622c9606925f/
+2022-03-30 18:51:20,985 django.request WARNING  Forbidden: /api/v1/states/62432be0-82a1-4cef-a624-c015778437ae/
+2022-03-30 18:53:11,786 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 18:53:34,095 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:04:14,250 django.utils.autoreload INFO     /app/backend/locations/views.py changed, reloading.
+2022-03-30 19:04:15,898 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 19:04:22,408 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:04:22,501 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:04:22,544 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:04:22,587 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 19:04:22,638 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:04:22,689 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 19:04:22,786 django.request WARNING  Bad Request: /api/v1/states/ee0acd7d-b587-4b0c-a90f-e5f9569dd21f/
+2022-03-30 19:04:22,834 django.request WARNING  Bad Request: /api/v1/states/3c73683c-f4f2-4796-9156-55b71cfe9757/
+2022-03-30 19:04:22,885 django.request WARNING  Not Found: /api/v1/states/50189ee5-ad2c-4daf-8e29-333a2ad2046b/
+2022-03-30 19:04:22,933 django.request WARNING  Not Found: /api/v1/states/c231284f-b41c-412b-b77e-df1dc4fd4694/
+2022-03-30 19:04:22,979 django.request WARNING  Forbidden: /api/v1/states/b0ebf864-d04b-4872-91ef-6bdb061522f4/
+2022-03-30 19:04:23,077 django.request WARNING  Not Found: /api/v1/states/40f5708b-eb4c-4032-876d-8124a032ae21/
+2022-03-30 19:04:23,127 django.request WARNING  Forbidden: /api/v1/states/401a06ff-54b0-4ce8-9e8c-259e9774099e/
+2022-03-30 19:04:23,223 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:04:23,275 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:04:23,323 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:04:23,375 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:04:23,678 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:04:23,732 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:04:23,812 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:04:23,866 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:04:23,925 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:04:23,973 django.request WARNING  Forbidden: /api/v1/cities/
+2022-03-30 19:06:53,128 django.utils.autoreload INFO     /app/backend/locations/views.py changed, reloading.
+2022-03-30 19:06:54,691 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-30 19:07:00,154 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:07:00,266 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:07:00,322 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:07:00,373 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 19:07:00,437 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:07:00,491 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 19:07:00,591 django.request WARNING  Bad Request: /api/v1/states/e74d2e06-a936-4205-9895-5d4dbe0aff6f/
+2022-03-30 19:07:00,657 django.request WARNING  Bad Request: /api/v1/states/0a7ecac0-3831-401b-9f9f-e11b43c0a64a/
+2022-03-30 19:07:00,705 django.request WARNING  Not Found: /api/v1/states/0a7c9f5e-0a78-4410-8b01-1759cf8742d6/
+2022-03-30 19:07:00,754 django.request WARNING  Not Found: /api/v1/states/b8ca3bc3-e2b2-43eb-bcd4-55c5463ed1a6/
+2022-03-30 19:07:00,803 django.request WARNING  Forbidden: /api/v1/states/b85a7d10-d45a-489a-83b0-a49cf372f563/
+2022-03-30 19:07:00,906 django.request WARNING  Not Found: /api/v1/states/92ceaba7-56ea-47ad-a936-60f405f92c39/
+2022-03-30 19:07:00,977 django.request WARNING  Forbidden: /api/v1/states/21fa29c1-270f-42db-a716-7efc7833e863/
+2022-03-30 19:07:01,083 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:07:01,134 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:07:01,184 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:07:01,235 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:07:01,287 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:07:01,597 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:07:01,653 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:07:01,708 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:07:01,769 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:07:01,818 django.request WARNING  Forbidden: /api/v1/cities/
+2022-03-30 19:08:26,140 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:08:26,234 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:08:26,276 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:08:26,321 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 19:08:26,374 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:08:26,421 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 19:08:26,520 django.request WARNING  Bad Request: /api/v1/states/f6fb2b14-d80a-4767-a818-b09c461022e0/
+2022-03-30 19:08:26,570 django.request WARNING  Bad Request: /api/v1/states/0a63252b-929f-4eeb-bc05-f627fa38bcb1/
+2022-03-30 19:08:26,622 django.request WARNING  Not Found: /api/v1/states/ffdf5c1d-9d84-4bf5-8436-f00d0d808f54/
+2022-03-30 19:08:26,671 django.request WARNING  Not Found: /api/v1/states/f7f343d2-efae-4e05-9db0-f3e75c137b76/
+2022-03-30 19:08:26,717 django.request WARNING  Forbidden: /api/v1/states/4483f98d-d0ec-4a88-a6d3-2a74046224e2/
+2022-03-30 19:08:26,824 django.request WARNING  Not Found: /api/v1/states/8ab00775-ce04-48f3-9430-7c77e83a4499/
+2022-03-30 19:08:26,888 django.request WARNING  Forbidden: /api/v1/states/8ed288d4-9cd7-4197-9b13-4c604c66ccc7/
+2022-03-30 19:08:26,981 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:08:27,031 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:08:27,080 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:08:27,132 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:08:27,183 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:08:27,234 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:08:27,289 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:08:27,343 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:08:27,404 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:08:27,451 django.request WARNING  Forbidden: /api/v1/cities/
+2022-03-30 19:16:32,400 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:16:32,461 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:16:32,523 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:16:32,577 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 19:16:32,643 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:16:32,718 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 19:16:32,846 django.request WARNING  Bad Request: /api/v1/states/ea96388c-1dcf-4a96-84a3-2f31e3b2bd79/
+2022-03-30 19:16:32,922 django.request WARNING  Bad Request: /api/v1/states/266822d2-d7c0-49e7-8af6-6b4b77ff64b2/
+2022-03-30 19:16:32,985 django.request WARNING  Not Found: /api/v1/states/4ef77f3b-a25f-4cb3-a564-707329818d6b/
+2022-03-30 19:16:33,040 django.request WARNING  Not Found: /api/v1/states/78dbcbd2-3eac-4fc7-9925-2fc653eb8879/
+2022-03-30 19:16:33,103 django.request WARNING  Forbidden: /api/v1/states/0d409b4c-0a1f-4ad4-b52a-29a06ae4a781/
+2022-03-30 19:16:33,219 django.request WARNING  Not Found: /api/v1/states/088f4f85-6428-4ded-995c-3a0b3a9af762/
+2022-03-30 19:16:33,271 django.request WARNING  Forbidden: /api/v1/states/2c5d83b8-9e38-4b96-b27e-d6f260ef2a4f/
+2022-03-30 19:16:33,402 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:16:33,467 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:16:33,519 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:16:33,571 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:16:33,622 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:16:33,689 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:16:33,757 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:16:33,819 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:16:33,968 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:16:34,093 django.request WARNING  Forbidden: /api/v1/cities/
+2022-03-30 19:16:34,150 django.request WARNING  Not Found: /api/v1/cities/45f94af8-8306-4191-bfef-2316ff08cdb0/
+2022-03-30 19:16:34,498 django.request ERROR    Internal Server Error: /api/v1/cities/invalid-uuid/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2434, in to_python
+    return uuid.UUID(**{input_form: value})
+  File "/usr/local/lib/python3.9/uuid.py", line 177, in __init__
+    raise ValueError('badly formed hexadecimal UUID string')
+ValueError: badly formed hexadecimal UUID string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/backend/locations/views.py", line 206, in update
+    city = City.objects.filter(uuid=uuid)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/lookups.py", line 77, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2418, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2436, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“invalid-uuid” is not a valid UUID.']
+2022-03-30 19:16:35,323 django.request WARNING  Not Found: /api/v1/cities/0f88e26f-611a-4b81-9261-4b88c88ef837/
+2022-03-30 19:16:35,447 django.request WARNING  Not Found: /api/v1/cities/6925e63e-5b00-45de-97e9-dd2fcafea972/
+2022-03-30 19:16:35,519 django.request WARNING  Not Found: /api/v1/cities/1be505ab-f0d7-4a86-81c6-ff54ea8f55b5/
+2022-03-30 19:16:35,588 django.request WARNING  Forbidden: /api/v1/cities/4bbb7d02-8803-4be8-8658-1aef2477d395/
+2022-03-30 19:16:35,637 django.request WARNING  Not Found: /api/v1/cities/10df3d23-444f-4408-9070-d26b92e17e72/
+2022-03-30 19:16:35,706 django.request ERROR    Internal Server Error: /api/v1/cities/invalid-uuid/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2434, in to_python
+    return uuid.UUID(**{input_form: value})
+  File "/usr/local/lib/python3.9/uuid.py", line 177, in __init__
+    raise ValueError('badly formed hexadecimal UUID string')
+ValueError: badly formed hexadecimal UUID string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/backend/locations/views.py", line 220, in destroy
+    city = City.objects.filter(uuid=uuid)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/lookups.py", line 77, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2418, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2436, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“invalid-uuid” is not a valid UUID.']
+2022-03-30 19:16:36,468 django.request WARNING  Forbidden: /api/v1/cities/26d06f22-5a66-433b-bc8f-2b3cea02651e/
+2022-03-30 19:17:33,393 django.request WARNING  Not Found: /api/v1/cities/6423c4fc-c00e-4228-825f-4210a21e8e2d/
+2022-03-30 19:20:07,396 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:20:07,444 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:20:07,491 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:20:07,537 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 19:20:07,586 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:20:07,633 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 19:20:07,731 django.request WARNING  Bad Request: /api/v1/states/632ed07d-a940-449d-bf51-2a9b90f9ae10/
+2022-03-30 19:20:07,784 django.request WARNING  Bad Request: /api/v1/states/fad25b8e-e827-4ebc-8a4d-b2048b5412d8/
+2022-03-30 19:20:07,838 django.request WARNING  Not Found: /api/v1/states/9b3b69d0-3169-4a86-8d81-683b0a7ff3b8/
+2022-03-30 19:20:07,889 django.request WARNING  Not Found: /api/v1/states/da5e98c5-c8c7-47fd-8353-44d8e67b860c/
+2022-03-30 19:20:07,939 django.request WARNING  Forbidden: /api/v1/states/05527781-36e5-45c9-9bfa-7931cd3aad19/
+2022-03-30 19:20:08,046 django.request WARNING  Not Found: /api/v1/states/03568720-155e-4581-8a42-f2192dceff37/
+2022-03-30 19:20:08,091 django.request WARNING  Forbidden: /api/v1/states/d06b75db-07ee-4938-acab-08aea28f23fe/
+2022-03-30 19:20:08,191 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:20:08,238 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:20:08,287 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:20:08,339 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:20:08,392 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:20:08,443 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:20:08,502 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:20:08,556 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:20:08,615 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:20:08,663 django.request WARNING  Forbidden: /api/v1/cities/
+2022-03-30 19:20:08,712 django.request WARNING  Not Found: /api/v1/cities/9576e52d-fd7f-4846-b892-9983d86a7898/
+2022-03-30 19:20:09,009 django.request WARNING  Not Found: /api/v1/cities/68f297d6-078d-431b-80ee-e295717cb476/
+2022-03-30 19:20:09,059 django.request WARNING  Not Found: /api/v1/cities/6007d1aa-4a3d-47c6-a882-a6da792db37e/
+2022-03-30 19:20:09,136 django.request WARNING  Not Found: /api/v1/cities/59948948-c81c-4819-87d0-0d18f4b50f3c/
+2022-03-30 19:20:09,213 django.request WARNING  Not Found: /api/v1/cities/7e03919b-1d51-491e-a518-6f93dc608fbf/
+2022-03-30 19:20:09,281 django.request WARNING  Forbidden: /api/v1/cities/195bc548-a25f-4ab8-a46a-82f083924656/
+2022-03-30 19:20:09,328 django.request WARNING  Not Found: /api/v1/cities/8cb373d9-9b6c-4368-b68c-fdab47f5dac1/
+2022-03-30 19:20:09,456 django.request WARNING  Not Found: /api/v1/cities/6f77e052-e511-4d22-9cfc-a303b9bb3b66/
+2022-03-30 19:20:09,501 django.request WARNING  Forbidden: /api/v1/cities/9b6b29f5-c334-46fc-a017-48c9d39c8b07/
+2022-03-30 19:25:35,324 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:25:35,374 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:25:35,430 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:25:35,477 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 19:25:35,530 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:25:35,579 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 19:25:35,679 django.request WARNING  Bad Request: /api/v1/states/668a3585-6489-4806-8c4f-8ae49e578937/
+2022-03-30 19:25:35,738 django.request WARNING  Bad Request: /api/v1/states/8e53fe8b-501f-4481-8c95-dce51367a262/
+2022-03-30 19:25:35,788 django.request WARNING  Not Found: /api/v1/states/5d2199e2-dc64-4eba-8bb7-a987fdcc2200/
+2022-03-30 19:25:35,842 django.request WARNING  Not Found: /api/v1/states/5676ebf4-b431-452e-8f80-583e3b282681/
+2022-03-30 19:25:35,890 django.request WARNING  Forbidden: /api/v1/states/fae7de26-0f9f-4492-808e-a85fe864c499/
+2022-03-30 19:25:35,985 django.request WARNING  Not Found: /api/v1/states/64dbf67a-bcb6-4718-a9aa-30ea2d6af388/
+2022-03-30 19:25:36,031 django.request WARNING  Forbidden: /api/v1/states/6ac82929-a2a1-4bf8-af5b-1faf7b2f466e/
+2022-03-30 19:25:36,126 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:25:36,179 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:25:36,231 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:25:36,288 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:25:36,340 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:25:36,394 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:25:36,781 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:25:36,842 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:25:36,891 django.request WARNING  Forbidden: /api/v1/cities/
+2022-03-30 19:25:37,026 django.request WARNING  Not Found: /api/v1/cities/be797435-3300-4471-9d0a-00ed1298c9e6/
+2022-03-30 19:25:37,079 django.request WARNING  Not Found: /api/v1/cities/ec3136ae-6f1f-43ce-bbe4-87c6fec1e486/
+2022-03-30 19:25:37,131 django.request WARNING  Not Found: /api/v1/cities/04f31e1e-2662-4974-b207-a079c0bea2d7/
+2022-03-30 19:25:37,209 django.request WARNING  Not Found: /api/v1/cities/44866b78-cc61-4c8a-b684-a900d53940cd/
+2022-03-30 19:25:37,262 django.request WARNING  Forbidden: /api/v1/cities/ab40310e-75ce-4363-a765-a210962c18e1/
+2022-03-30 19:25:37,372 django.request WARNING  Not Found: /api/v1/cities/c5ab508f-3b4e-4521-9c3d-2d86ed612684/
+2022-03-30 19:25:37,427 django.request WARNING  Forbidden: /api/v1/cities/73a22f55-3b8e-49b9-826f-fb607c500d08/
+2022-03-30 19:25:55,541 django.request WARNING  Not Found: /api/v1/cities/6423c4fc-c00e-4228-825f-4210a21e8e2d/
+2022-03-30 19:26:41,524 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:26:41,567 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:26:41,610 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:26:41,653 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 19:26:41,704 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 19:26:41,753 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 19:26:41,849 django.request WARNING  Bad Request: /api/v1/states/11499d14-d553-465c-b664-8996a05abb85/
+2022-03-30 19:26:41,901 django.request WARNING  Bad Request: /api/v1/states/4c8e2d84-de0c-4c85-94f1-f88785ccb45a/
+2022-03-30 19:26:41,953 django.request WARNING  Not Found: /api/v1/states/ed95cf3d-c3c3-4072-8af9-2728abad1073/
+2022-03-30 19:26:42,001 django.request WARNING  Not Found: /api/v1/states/37cff632-6d95-4f1a-9d92-98f961c2c4bc/
+2022-03-30 19:26:42,050 django.request WARNING  Forbidden: /api/v1/states/5ed89945-9b20-41d8-a947-4e238e667908/
+2022-03-30 19:26:42,148 django.request WARNING  Not Found: /api/v1/states/961aaaeb-15bf-4d16-947f-9c21a5934b26/
+2022-03-30 19:26:42,195 django.request WARNING  Forbidden: /api/v1/states/ed0a029e-cf22-421e-ada3-6e6d40126357/
+2022-03-30 19:26:42,293 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:26:42,341 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:26:42,398 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:26:42,465 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:26:42,518 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:26:42,576 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:26:42,648 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:26:42,721 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 19:26:42,796 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 19:26:42,853 django.request WARNING  Forbidden: /api/v1/cities/
+2022-03-30 19:26:42,964 django.request WARNING  Not Found: /api/v1/cities/1b79bf85-760e-4606-9093-758cb64f177f/
+2022-03-30 19:26:43,023 django.request WARNING  Not Found: /api/v1/cities/985831c9-935f-4051-bffb-f5cadf8bc51f/
+2022-03-30 19:26:43,080 django.request WARNING  Not Found: /api/v1/cities/7b9f68e3-bb8c-4d61-8958-36770ee899b1/
+2022-03-30 19:26:43,144 django.request WARNING  Not Found: /api/v1/cities/584e79ee-533a-49b8-bd7f-fc57c8bfd6e6/
+2022-03-30 19:26:43,195 django.request WARNING  Forbidden: /api/v1/cities/351a5cc3-6800-4138-8f13-1cbd38ffd140/
+2022-03-30 19:26:43,298 django.request WARNING  Not Found: /api/v1/cities/4fefaf2c-5a7d-48c2-b8cc-770737a38dfb/
+2022-03-30 19:26:43,348 django.request WARNING  Forbidden: /api/v1/cities/732495f7-3612-49f6-8000-0328f0aa6f24/
+2022-03-30 20:07:23,380 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 20:07:23,440 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 20:07:23,493 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 20:07:23,552 django.request WARNING  Not Found: /api/v1/states/
+2022-03-30 20:07:23,619 django.request WARNING  Bad Request: /api/v1/states/
+2022-03-30 20:07:23,687 django.request WARNING  Forbidden: /api/v1/states/
+2022-03-30 20:07:23,809 django.request WARNING  Bad Request: /api/v1/states/06f9bf9a-3c1d-4a00-9b50-7cc8d8698d25/
+2022-03-30 20:07:23,879 django.request WARNING  Bad Request: /api/v1/states/58dabd60-18bd-427f-bde6-4e51d205b1cb/
+2022-03-30 20:07:23,937 django.request WARNING  Not Found: /api/v1/states/12ea4ef4-b1c2-4354-a016-bb9c62e72e03/
+2022-03-30 20:07:24,003 django.request WARNING  Not Found: /api/v1/states/03218ef8-271c-4d5e-bd8e-791387cff962/
+2022-03-30 20:07:24,076 django.request WARNING  Forbidden: /api/v1/states/afc3a2d8-4b3b-4b3d-8c72-de36f5a3b4d5/
+2022-03-30 20:07:24,214 django.request WARNING  Not Found: /api/v1/states/0878b8c9-f619-4bd7-b873-c5688a68c272/
+2022-03-30 20:07:24,273 django.request WARNING  Forbidden: /api/v1/states/28185bb5-884e-48b1-9dc6-15f239973695/
+2022-03-30 20:07:24,440 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 20:07:24,501 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 20:07:24,571 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 20:07:24,630 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 20:07:24,693 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 20:07:24,756 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 20:07:24,833 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 20:07:24,897 django.request WARNING  Not Found: /api/v1/cities/
+2022-03-30 20:07:24,968 django.request WARNING  Bad Request: /api/v1/cities/
+2022-03-30 20:07:25,029 django.request WARNING  Forbidden: /api/v1/cities/
+2022-03-30 20:07:25,147 django.request WARNING  Not Found: /api/v1/cities/1a242e34-8b97-47f0-b6b5-63d6a9cbc70c/
+2022-03-30 20:07:25,213 django.request WARNING  Not Found: /api/v1/cities/2e4795b2-74db-4839-8a7e-652c9eb89635/
+2022-03-30 20:07:25,278 django.request WARNING  Not Found: /api/v1/cities/a9acdf71-b09a-4ff8-b933-f1f814ba26e1/
+2022-03-30 20:07:25,348 django.request WARNING  Not Found: /api/v1/cities/7480c58a-3471-4b3b-9707-a7e6b7f403c6/
+2022-03-30 20:07:25,401 django.request WARNING  Forbidden: /api/v1/cities/f9ae548a-c74e-4beb-a9c2-6ef4c502245e/
+2022-03-30 20:07:25,533 django.request WARNING  Not Found: /api/v1/cities/6006834f-ece5-46d3-9614-c48537bab337/
+2022-03-30 20:07:25,592 django.request WARNING  Forbidden: /api/v1/cities/0f9ff1e2-7787-40bd-9c6a-cc4befcb37cd/
