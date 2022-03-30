@@ -23647,3 +23647,5 @@ django.core.exceptions.ValidationError: ['“invalid-uuid” is not a valid UUID
 2022-03-30 20:07:25,401 django.request WARNING  Forbidden: /api/v1/cities/f9ae548a-c74e-4beb-a9c2-6ef4c502245e/
 2022-03-30 20:07:25,533 django.request WARNING  Not Found: /api/v1/cities/6006834f-ece5-46d3-9614-c48537bab337/
 2022-03-30 20:07:25,592 django.request WARNING  Forbidden: /api/v1/cities/0f9ff1e2-7787-40bd-9c6a-cc4befcb37cd/
+2022-03-30 20:09:01,677 django.utils.autoreload INFO     /app/backend/locations/views.py changed, reloading.
+2022-03-30 20:09:03,993 django.utils.autoreload INFO     Watching for file changes with StatReloader
