@@ -23649,3 +23649,49 @@ django.core.exceptions.ValidationError: ['“invalid-uuid” is not a valid UUID
 2022-03-30 20:07:25,592 django.request WARNING  Forbidden: /api/v1/cities/0f9ff1e2-7787-40bd-9c6a-cc4befcb37cd/
 2022-03-30 20:09:01,677 django.utils.autoreload INFO     /app/backend/locations/views.py changed, reloading.
 2022-03-30 20:09:03,993 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:17:34,108 flower.command INFO     Visit me at http://localhost:5555
+2022-03-31 16:17:34,146 flower.command INFO     Broker: redis://redis:6379/0
+2022-03-31 16:17:34,153 flower.command INFO     Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'djcelery_email_send_multiple']
+2022-03-31 16:17:34,169 kombu.mixins INFO     Connected to redis://redis:6379/0
+2022-03-31 16:17:34,423 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:20:18,507 django.utils.autoreload INFO     /app/backend/locations/serializers.py changed, reloading.
+2022-03-31 16:20:20,251 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:21:10,033 django.utils.autoreload INFO     /app/backend/locations/serializers.py changed, reloading.
+2022-03-31 16:21:11,669 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:22:41,674 django.utils.autoreload INFO     /app/backend/locations/serializers.py changed, reloading.
+2022-03-31 16:22:44,333 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:28:15,790 flower.command INFO     Visit me at http://localhost:5555
+2022-03-31 16:28:15,810 flower.command INFO     Broker: redis://redis:6379/0
+2022-03-31 16:28:15,816 flower.command INFO     Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'djcelery_email_send_multiple']
+2022-03-31 16:28:15,834 kombu.mixins INFO     Connected to redis://redis:6379/0
+2022-03-31 16:28:17,130 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:29:30,259 django.utils.autoreload INFO     /app/backend/locations/serializers.py changed, reloading.
+2022-03-31 16:29:33,472 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:29:46,514 django.utils.autoreload INFO     /app/backend/locations/serializers.py changed, reloading.
+2022-03-31 16:29:48,579 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:29:58,375 django.utils.autoreload INFO     /app/backend/locations/serializers.py changed, reloading.
+2022-03-31 16:30:00,198 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:33:46,478 django.utils.autoreload INFO     /app/backend/locations/serializers.py changed, reloading.
+2022-03-31 16:33:48,267 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:35:00,128 django.utils.autoreload INFO     /app/backend/locations/serializers.py changed, reloading.
+2022-03-31 16:35:02,183 django.utils.autoreload INFO     Watching for file changes with StatReloader

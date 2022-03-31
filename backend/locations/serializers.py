@@ -30,17 +30,26 @@ class CitySerializer(serializers.ModelSerializer):
         fields = ("id", "name", "state", "country")
 
 
-class LocationStateSerializer(serializers.ModelSerializer):
+class LocationCitySerializer(serializers.ModelSerializer):
     id = serializers.UUIDField(source="uuid", read_only=True)
 
     class Meta:
-        model = State
+        model = City
         fields = ("id", "name")
 
 
+class LocationStateSerializer(serializers.ModelSerializer):
+    id = serializers.UUIDField(source="uuid", read_only=True)
+    cities = LocationCitySerializer(many=True, read_only=True)
+
+    class Meta:
+        model = State
+        fields = ("id", "name", "cities")
+
+
 class LocationsSerializer(serializers.ModelSerializer):
-    states = LocationStateSerializer(many=True, read_only=True)
     id = serializers.UUIDField(source="uuid")
+    states = LocationStateSerializer(many=True, read_only=True)
 
     class Meta:
         model = Country
