@@ -23695,3 +23695,8 @@ django.core.exceptions.ValidationError: ['“invalid-uuid” is not a valid UUID
 2022-03-31 16:33:48,267 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2022-03-31 16:35:00,128 django.utils.autoreload INFO     /app/backend/locations/serializers.py changed, reloading.
 2022-03-31 16:35:02,183 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-03-31 16:55:24,889 django.request WARNING  Unauthorized: /api/v1/locations/
+2022-03-31 16:56:08,991 django.request WARNING  Unauthorized: /api/v1/locations/
+2022-03-31 16:56:15,822 django.request WARNING  Unauthorized: /api/v1/locations/
+2022-03-31 16:58:53,389 django.request WARNING  Not Found: /api/v1/locations/1
+2022-03-31 16:58:56,052 django.request WARNING  Not Found: /api/v1/locations/1/
