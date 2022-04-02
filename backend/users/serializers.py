@@ -1,17 +1,19 @@
 from django.contrib.auth import get_user_model
 from djoser.serializers import UserCreateSerializer
 from rest_framework import serializers
+from rest_framework.response import Response
 
+from backend.locations.models import Country, City
 from backend.users.models import Address
 
 User = get_user_model()
 
 
-class UserAddressesSerializer(serializers.ModelSerializer):
+class UserAddressSerializer(serializers.ModelSerializer):
     city = serializers.CharField(source="city.name")
     country = serializers.CharField(source="country.name")
-    state = serializers.CharField(source="city.state.name")
-    id = serializers.UUIDField(source="uuid")
+    state = serializers.CharField(source="city.state.name", read_only=True)
+    id = serializers.UUIDField(source="uuid", read_only=True)
 
     class Meta:
         model = Address
@@ -30,7 +32,7 @@ class UserAddressesSerializer(serializers.ModelSerializer):
 
 
 class UserSerializer(serializers.ModelSerializer):
-    addresses = UserAddressesSerializer(many=True, read_only=True)
+    addresses = UserAddressSerializer(many=True, read_only=True)
     first_name = serializers.SerializerMethodField()
     last_name = serializers.SerializerMethodField()
     full_name = serializers.SerializerMethodField()

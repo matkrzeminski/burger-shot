@@ -37,3 +37,6 @@ class Address(BaseAddress):
         related_query_name="address",
         on_delete=models.CASCADE,
     )
+
+    class Meta:
+        unique_together = ("name", "user")
