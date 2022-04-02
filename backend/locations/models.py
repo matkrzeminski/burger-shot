@@ -50,6 +50,7 @@ class City(TimeStampedUUID):
     class Meta:
         verbose_name = "City"
         verbose_name_plural = "Cities"
+        unique_together = ("name", "country", "state")
 
     def __str__(self):
         return self.name

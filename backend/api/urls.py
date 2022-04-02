@@ -5,12 +5,11 @@ from rest_framework import permissions
 from rest_framework.routers import DefaultRouter
 
 from ..locations.views import (
-    LocationsListAPIView,
     CountryViewSet,
     StateViewSet,
-    CityViewSet,
+    CityViewSet, LocationListRetrieveAPIView,
 )
-from ..users.views import UserAPIView
+from ..users.views import UserAPIView, UserAddressViewSet
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -27,10 +26,12 @@ router = DefaultRouter()
 router.register("countries", CountryViewSet)
 router.register("states", StateViewSet)
 router.register("cities", CityViewSet)
+# router.register("users/me/addresses", UserAddressViewSet)
 
 urlpatterns = [
     path("users/me/", UserAPIView.as_view(), name="me"),
-    path("locations/", LocationsListAPIView.as_view(), name="locations"),
+    path("locations/", LocationListRetrieveAPIView.as_view(), name="locations"),
+    path("locations/<uuid:uuid>/", LocationListRetrieveAPIView.as_view(), name="location"),
     path(
         "swagger/",
         schema_view.with_ui("swagger", cache_timeout=0),
